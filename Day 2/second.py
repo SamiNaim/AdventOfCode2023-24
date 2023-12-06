@@ -1,5 +1,5 @@
-inputFile = open("C:\\Users\\User\\Desktop\\Projects\\AdventOfCode2023-24\\AdventOfCode2023-24\\Day 2\\input.txt", "r")
-lines = inputFile.readlines()
+with open("C:\\Users\\User\\Desktop\\Projects\\AdventOfCode2023-24\\AdventOfCode2023-24\\Day 2\\input.txt", "r") as inputFile:
+    lines = inputFile.readlines()
 
 sumPowerSets = 0
 
